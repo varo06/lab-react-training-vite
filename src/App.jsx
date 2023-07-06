@@ -2,9 +2,10 @@ import "./App.css";
 import IdCard from "./components/IdCard";
 import Greetings from "./components/Greetings";
 import Random from "./components/Random"
+import FaceBook from "./components/Facebook"
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <h1> LAB | React Training</h1>
       <div>
         <IdCard
@@ -29,6 +30,7 @@ function App() {
       <Greetings lan="fr">Alvaro</Greetings>
 
       <Random min={1} max={100}></Random>
+      <FaceBook/>
     </div>
   );
 }
